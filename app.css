@@ -1,0 +1,59 @@
+BODY {
+  color: #DDDDDD;
+  font-family: roboto;
+  text-align: center;
+}
+
+H1 {
+  text-align: center;
+  font-size: 14px;
+}
+
+#grid TR TD.active {
+  border: 2px solid black;
+  box-sizing: border-box;
+  margin: -1px -1px 0 0;
+}
+
+#grid {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#grid TR TD{
+  border:1px solid white;
+  background: #999999;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+}
+
+#grid TR TD.clicked {
+    background: #7AF;
+}
+
+#grid TR TD.mine {
+    background: #FF0000;
+}
+
+BUTTON {
+  margin-top: 18px;
+  padding: 7px 25px 8px;
+  color: #fff;
+  font-family: roboto;
+  font-weight: 400;
+  font-size: 14px;
+  text-decoration: none;
+  background-color: #3F88E8;
+  border-radius: 25px;
+  border: 2px solid #3F88E8;
+  cursor: pointer;
+  transition: .2s all ease-in-out;
+}
+
+#grid TR TD.flag {
+    background: #FF0;
+}
+.tile-s {
+  outline: 1px #ff2400 solid;
+}
